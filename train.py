@@ -1,3 +1,7 @@
+"""
+this program how to train object detection using your own custom datasets
+"""
+
 from ultralytics import YOLO
 model = YOLO("yolo11n.pt")
 model.info()
